@@ -1,36 +1,54 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-        <link rel="stylesheet" href="public/css/main.css">
-    </head>
-    <body>
 
-        <nav class="navbar">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/css/main.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
                 <img src="public/images/morse_machine.png" alt="Logo" class="d-inline-block align-text-top">
                 Morse Code Translator
-              </a>
-            </div>
-          </nav>
+            </a>
+        </div>
+    </nav>
 
-          <section class="section container searching">
-            <div class="translate-section d-flex w-100 p-5">
-                <input type="text" id="search_word" class="form-control mx-4" placeholder="Start typing here..">
-            </div>
-            <div class="display-section">
-    
-            </div>
-        </section>
-        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-        <script src="public/js/code.js"></script>
-    </body>
+    <img class="container justify-content-center d-flex w-25 pt-5" src="public/images/telegraph.png" alt="telegraph">
+
+    <section class="history container">
+        <h2>What is Morse Code?</h2>
+        <p>The term Morse Code refers to either of two systems for representing letters of the alphabet, numerals, and punctuation marks by an arrangement of dots, dashes, and spaces. The codes are transmitted as electrical pulses of varied lengths or analogous mechanical or visual signals, such as flashing lights. The two systems are the original “American” Morse Code and the later International Morse Code, which became the global standard.</p>
+        <h2>How was Morse Code invented?</h2>
+        <p>One of the Morse code systems was invented in the United States by American artist and inventor <a href="https://www.britannica.com/biography/Samuel-F-B-Morse">Samuel F.B. Morse</a> during the 1830s for electrical telegraphy. A variant called the International Morse Code was devised by a conference of European nations in 1851 to account for letters with diacritic marks.</p>
+        <h2>How does Morse Code Work?</h2>
+        <p>International Morse Code uses combinations of dots and short dashes for all letters. In addition, the International Morse Code uses dashes of constant length rather than the variable lengths used in the original Morse Code. For example, the universal distress signal “SOS” is communicated by three dots, three dashes, and three dots—three dots denoting the letter “S” and three dashes denoting the letter “O.”</p>
+    </section>
+
+    <section class="container searching">
+        <div class="translate-section d-flex w-100 p-5">
+            <input type="text" id="search_word" class="form-control mx-4" placeholder="Start typing here..">
+        </div>
+        <div class="display-section">
+
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="public/js/code.js"></script>
+</body>
+
 </html>
