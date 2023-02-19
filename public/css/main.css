@@ -13,3 +13,16 @@
     .navbar .navbar-brand img {
       width: 3rem;
       margin-right: 1rem; }
+
+.searching {
+  display: flex;
+  flex-direction: column; }
+  .searching .display-section {
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%; }
+    .searching .display-section img {
+      max-width: 100%;
+      height: 1rem; }
