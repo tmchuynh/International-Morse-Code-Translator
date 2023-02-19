@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.navbar {
+  background-color: #a37f7f; }
+  .navbar .navbar-brand {
+    font-weight: bold;
+    text-transform: uppercase;
+    align-items: center;
+    display: inline-flex; }
+    .navbar .navbar-brand img {
+      width: 3rem;
+      margin-right: 1rem; }
